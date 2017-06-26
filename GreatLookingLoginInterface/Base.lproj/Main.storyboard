@@ -1,26 +1,175 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="DancingScript-Bold.ttf">
+            <string>DancingScript-Bold</string>
+        </array>
+        <array key="Lemon-Regular.ttf">
+            <string>Lemon-Regular</string>
+        </array>
+        <array key="Raleway-LightItalic.ttf">
+            <string>Raleway-LightItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GreatLookingLoginInterface" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="67b-Tb-SIt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ArchieApp " textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="cme-1d-nU4">
+                                <rect key="frame" x="16" y="51" width="288" height="102"/>
+                                <fontDescription key="fontDescription" name="DancingScript-Bold" family="Dancing Script" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="4"/>
+                            </label>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeZ-i0-5Yf">
+                                <rect key="frame" x="16" y="278" width="288" height="210"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tkt-2U-bjG">
+                                    <rect key="frame" x="0.0" y="0.0" width="288" height="210"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="676-pf-MnN">
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="209.5"/>
+                                            <string key="text">1. Adding Custom Fonts in iOS 2. Scaling Fonts for Multiple Devices                                   3. Using IBDesignables and IBInspectables                       4. Creating the Modal Popup</string>
+                                            <fontDescription key="fontDescription" name="Raleway-LightItalic" family="Raleway" pointSize="71"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="676-pf-MnN" secondAttribute="trailing" id="Nd9-z6-PaU"/>
+                                        <constraint firstItem="676-pf-MnN" firstAttribute="top" secondItem="tkt-2U-bjG" secondAttribute="top" id="sYY-oZ-Wgh"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="676-pf-MnN" secondAttribute="bottom" id="uEV-lW-JiA"/>
+                                        <constraint firstItem="676-pf-MnN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tkt-2U-bjG" secondAttribute="leading" id="wIt-0P-FSk"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo App" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="nSK-3j-Jjf">
+                                <rect key="frame" x="16" y="153" width="288" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="IJR-6n-tuz"/>
+                                    <constraint firstAttribute="height" constant="40" id="uTm-jx-bKg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lemon-Regular" family="Lemon" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-V6-iMZ" customClass="DesignButton" customModule="GreatLookingLoginInterface" customModuleProvider="target">
+                                <rect key="frame" x="160" y="508" width="144" height="40"/>
+                                <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="25"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id2-wl-4Ew" customClass="DesignButton" customModule="GreatLookingLoginInterface" customModuleProvider="target">
+                                <rect key="frame" x="16" y="508" width="144" height="40"/>
+                                <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="id2-wl-4Ew" secondAttribute="height" multiplier="18:5" id="mZf-Wm-Q0W"/>
+                                    <constraint firstAttribute="height" constant="40" id="ofU-Qj-AD0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="25"/>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UeZ-i0-5Yf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nSK-3j-Jjf" secondAttribute="bottom" constant="85" id="1nM-8t-TxL"/>
+                            <constraint firstItem="nSK-3j-Jjf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7TG-MY-vom"/>
+                            <constraint firstAttribute="trailing" secondItem="67b-Tb-SIt" secondAttribute="trailing" id="8tv-Ne-QKj"/>
+                            <constraint firstItem="UeZ-i0-5Yf" firstAttribute="leading" secondItem="nSK-3j-Jjf" secondAttribute="leading" id="H2K-jQ-0ZO"/>
+                            <constraint firstItem="UeZ-i0-5Yf" firstAttribute="trailing" secondItem="nSK-3j-Jjf" secondAttribute="trailing" id="Ir3-Kx-FEh"/>
+                            <constraint firstItem="cme-1d-nU4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JSF-HK-Jhd"/>
+                            <constraint firstItem="u2W-V6-iMZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KDN-N5-fla"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="id2-wl-4Ew" secondAttribute="bottom" constant="20" id="drj-N9-nne"/>
+                            <constraint firstItem="id2-wl-4Ew" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="htO-Sa-M0A"/>
+                            <constraint firstItem="u2W-V6-iMZ" firstAttribute="height" secondItem="id2-wl-4Ew" secondAttribute="height" id="i4h-WI-j3Y"/>
+                            <constraint firstItem="id2-wl-4Ew" firstAttribute="top" secondItem="UeZ-i0-5Yf" secondAttribute="bottom" constant="20" id="iOd-SV-HgA"/>
+                            <constraint firstItem="67b-Tb-SIt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="iU4-Jo-5Mj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u2W-V6-iMZ" secondAttribute="bottom" constant="20" id="l0e-FL-njF"/>
+                            <constraint firstItem="67b-Tb-SIt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pQA-cV-DjV"/>
+                            <constraint firstItem="cme-1d-nU4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="qHo-2I-5GR"/>
+                            <constraint firstItem="cme-1d-nU4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.18" id="qls-W5-abc"/>
+                            <constraint firstItem="nSK-3j-Jjf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="tHt-fV-jdH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="67b-Tb-SIt" secondAttribute="bottom" id="tlM-dn-saP"/>
+                            <constraint firstItem="cme-1d-nU4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tp4-vB-Wn8"/>
+                            <constraint firstItem="nSK-3j-Jjf" firstAttribute="top" secondItem="cme-1d-nU4" secondAttribute="bottom" id="vOe-ov-YSV"/>
+                            <constraint firstItem="u2W-V6-iMZ" firstAttribute="width" relation="greaterThanOrEqual" secondItem="id2-wl-4Ew" secondAttribute="width" id="x7c-tl-vHc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-253.125" y="50.70422535211268"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login" width="768" height="1024"/>
+    </resources>
 </document>

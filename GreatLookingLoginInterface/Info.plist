@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DancingScript-Bold</string>
+		<string>Raleway-LightItalic</string>
+		<string>Lemon-Regular</string>
+	</array>
 </dict>
 </plist>
