@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -33,15 +33,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="67b-Tb-SIt">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ArchieApp " textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="cme-1d-nU4">
-                                <rect key="frame" x="16" y="51" width="288" height="102"/>
+                                <rect key="frame" x="16" y="51" width="343" height="120"/>
                                 <fontDescription key="fontDescription" name="DancingScript-Bold" family="Dancing Script" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -49,13 +49,13 @@
                                 <size key="shadowOffset" width="0.0" height="4"/>
                             </label>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeZ-i0-5Yf">
-                                <rect key="frame" x="16" y="278" width="288" height="210"/>
+                                <rect key="frame" x="16" y="296" width="343" height="291"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tkt-2U-bjG">
-                                    <rect key="frame" x="0.0" y="0.0" width="288" height="210"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="291"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="676-pf-MnN">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="209.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="290.5"/>
                                             <string key="text">1. Adding Custom Fonts in iOS 2. Scaling Fonts for Multiple Devices                                   3. Using IBDesignables and IBInspectables                       4. Creating the Modal Popup</string>
                                             <fontDescription key="fontDescription" name="Raleway-LightItalic" family="Raleway" pointSize="71"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,7 +78,7 @@
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo App" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="nSK-3j-Jjf">
-                                <rect key="frame" x="16" y="153" width="288" height="40"/>
+                                <rect key="frame" x="16" y="171" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="IJR-6n-tuz"/>
                                     <constraint firstAttribute="height" constant="40" id="uTm-jx-bKg"/>
@@ -90,7 +90,7 @@
                                 <size key="shadowOffset" width="0.0" height="2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-V6-iMZ" customClass="DesignButton" customModule="GreatLookingLoginInterface" customModuleProvider="target">
-                                <rect key="frame" x="160" y="508" width="144" height="40"/>
+                                <rect key="frame" x="215" y="607" width="144" height="40"/>
                                 <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
                                 <state key="normal" title="Login">
@@ -112,7 +112,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id2-wl-4Ew" customClass="DesignButton" customModule="GreatLookingLoginInterface" customModuleProvider="target">
-                                <rect key="frame" x="16" y="508" width="144" height="40"/>
+                                <rect key="frame" x="16" y="607" width="144" height="40"/>
                                 <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="id2-wl-4Ew" secondAttribute="height" multiplier="18:5" id="mZf-Wm-Q0W"/>
@@ -176,54 +176,54 @@
             <objects>
                 <viewController id="m4e-DY-i6t" customClass="SignUpViewController" customModule="GreatLookingLoginInterface" customModuleProvider="target" sceneMemberID="viewController">
                     <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="IbT-3i-d5w">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mF5-rJ-R34">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vm1-5n-9xO">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <connections>
                                         <action selector="dismissPopUp:" destination="m4e-DY-i6t" eventType="touchUpInside" id="2Ug-qh-LE5"/>
                                     </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ph-qy-X4c" customClass="DesignView" customModule="GreatLookingLoginInterface" customModuleProvider="target">
-                                    <rect key="frame" x="30" y="164" width="260" height="240"/>
+                                    <rect key="frame" x="57.5" y="188.5" width="260" height="210"/>
                                     <color key="backgroundColor" red="0.59473305940628052" green="0.6031036376953125" blue="0.48732918500900269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="240" id="4fB-W4-9tg"/>
+                                        <constraint firstAttribute="height" constant="210" id="4fB-W4-9tg"/>
                                         <constraint firstAttribute="width" constant="260" id="ecd-SK-V9d"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                            <real key="value" value="8"/>
+                                            <integer key="value" value="10"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kvx-LQ-h6Q">
-                                    <rect key="frame" x="45" y="222" width="230" height="174"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Kvx-LQ-h6Q">
+                                    <rect key="frame" x="72.5" y="238.5" width="230" height="160"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Fill in!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91O-WQ-5QQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="230" height="36"/>
-                                            <fontDescription key="fontDescription" name="DancingScript-Bold" family="Dancing Script" pointSize="30"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="230" height="36.5"/>
+                                            <fontDescription key="fontDescription" name="DancingScript-Bold" family="Dancing Script" pointSize="35"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mVM-kH-cNR">
-                                            <rect key="frame" x="0.0" y="46" width="230" height="36"/>
+                                            <rect key="frame" x="0.0" y="41.5" width="230" height="36"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ueD-hx-gzN">
-                                            <rect key="frame" x="0.0" y="92" width="230" height="36"/>
+                                            <rect key="frame" x="0.0" y="82.5" width="230" height="36.5"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CI-VY-iXo">
-                                            <rect key="frame" x="0.0" y="138" width="230" height="36"/>
+                                            <rect key="frame" x="0.0" y="124" width="230" height="36"/>
                                             <fontDescription key="fontDescription" name="Raleway-LightItalic" family="Raleway" pointSize="25"/>
                                             <state key="normal" title="Sign UP">
                                                 <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -234,12 +234,12 @@
                                         </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="174" id="5Vc-hT-vZz"/>
+                                        <constraint firstAttribute="height" constant="160" id="5Vc-hT-vZz"/>
                                         <constraint firstAttribute="width" constant="230" id="htZ-km-4EC"/>
                                     </constraints>
                                 </stackView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BUY-ZO-os6" customClass="DesignView" customModule="GreatLookingLoginInterface" customModuleProvider="target">
-                                    <rect key="frame" x="110" y="113" width="100" height="100"/>
+                                    <rect key="frame" x="137.5" y="137.5" width="100" height="100"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="ezr-EV-TV8">
                                             <rect key="frame" x="32.5" y="32.5" width="35" height="35"/>
@@ -271,8 +271,8 @@
                                 <constraint firstItem="BUY-ZO-os6" firstAttribute="centerX" secondItem="mF5-rJ-R34" secondAttribute="centerX" id="V4c-aR-Ovk"/>
                                 <constraint firstItem="Vm1-5n-9xO" firstAttribute="top" secondItem="mF5-rJ-R34" secondAttribute="top" id="WMQ-hy-Zln"/>
                                 <constraint firstAttribute="bottom" secondItem="Vm1-5n-9xO" secondAttribute="bottom" id="XzH-Qb-AFO"/>
-                                <constraint firstItem="5ph-qy-X4c" firstAttribute="centerY" secondItem="mF5-rJ-R34" secondAttribute="centerY" id="Z2g-oF-XJp"/>
-                                <constraint firstItem="Kvx-LQ-h6Q" firstAttribute="centerY" secondItem="mF5-rJ-R34" secondAttribute="centerY" constant="25" id="ecq-sl-15N"/>
+                                <constraint firstItem="5ph-qy-X4c" firstAttribute="centerY" secondItem="mF5-rJ-R34" secondAttribute="centerY" constant="-40" id="Z2g-oF-XJp"/>
+                                <constraint firstItem="Kvx-LQ-h6Q" firstAttribute="centerY" secondItem="mF5-rJ-R34" secondAttribute="centerY" constant="-15" id="ecq-sl-15N"/>
                                 <constraint firstAttribute="trailing" secondItem="Vm1-5n-9xO" secondAttribute="trailing" id="nYn-AW-IRf"/>
                                 <constraint firstItem="5ph-qy-X4c" firstAttribute="top" secondItem="BUY-ZO-os6" secondAttribute="bottom" constant="-49" id="q8n-wt-QPs"/>
                                 <constraint firstItem="Vm1-5n-9xO" firstAttribute="leading" secondItem="mF5-rJ-R34" secondAttribute="leading" id="qeO-vO-Jhd"/>
@@ -280,6 +280,9 @@
                         </view>
                         <blurEffect style="light"/>
                     </visualEffectView>
+                    <connections>
+                        <outlet property="passwordTextField" destination="ueD-hx-gzN" id="kYf-Qf-zHP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FWO-wy-Csh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

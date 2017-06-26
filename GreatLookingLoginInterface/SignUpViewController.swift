@@ -8,10 +8,12 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
+    @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        passwordTextField.delegate = self
 
     }
     @IBAction func singUp(_ sender: Any) {
@@ -21,5 +23,10 @@ class SignUpViewController: UIViewController {
 
     @IBAction func dismissPopUp(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
