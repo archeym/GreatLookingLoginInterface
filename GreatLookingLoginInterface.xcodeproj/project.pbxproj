@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210D2A241F054B80009C3545 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210D2A231F054B80009C3545 /* DesignableTextField.swift */; };
 		211B82981EFE91CD003677C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B82971EFE91CD003677C5 /* AppDelegate.swift */; };
 		211B829A1EFE91CD003677C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B82991EFE91CD003677C5 /* ViewController.swift */; };
 		211B829D1EFE91CD003677C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B829B1EFE91CD003677C5 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210D2A231F054B80009C3545 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		211B82941EFE91CD003677C5 /* GreatLookingLoginInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatLookingLoginInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		211B82971EFE91CD003677C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		211B82991EFE91CD003677C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				217003A01F0056520001915B /* DesignButton.swift */,
 				2194E0951F00FD9400C8B262 /* DesignView.swift */,
+				210D2A231F054B80009C3545 /* DesignableTextField.swift */,
 			);
 			name = "IBDesignable ";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				2194E0961F00FD9400C8B262 /* DesignView.swift in Sources */,
 				217003A11F0056520001915B /* DesignButton.swift in Sources */,
 				211B829A1EFE91CD003677C5 /* ViewController.swift in Sources */,
+				210D2A241F054B80009C3545 /* DesignableTextField.swift in Sources */,
 				211B82981EFE91CD003677C5 /* AppDelegate.swift in Sources */,
 				2194E0981F00FE9C00C8B262 /* SignUpViewController.swift in Sources */,
 				2194E09B1F011F8A00C8B262 /* BounceButton.swift in Sources */,

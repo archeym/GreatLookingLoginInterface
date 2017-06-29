@@ -10,10 +10,12 @@ import UIKit
 
 class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var passwordTextField: UITextField!
-
+    @IBOutlet weak var usernamTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordTextField.delegate = self
+        
 
     }
     @IBAction func singUp(_ sender: Any) {
